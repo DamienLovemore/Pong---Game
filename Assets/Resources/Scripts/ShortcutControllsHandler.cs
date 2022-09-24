@@ -65,7 +65,7 @@ public class ShortcutControllsHandler : MonoBehaviour
             //If it is then, it sets to be normal window
             else
             {
-                Screen.SetResolution(840, 607, false);
+                Screen.fullScreenMode = FullScreenMode.Windowed;
             }
         }
         //Toggled the AI controller for the player 2
